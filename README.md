@@ -216,9 +216,7 @@ asl_recognition/
 │   ├── webcam.py            # Real-time webcam recognition
 │   ├── collect_data.py      # Webcam data collection tool
 │   ├── preprocess_to_skeleton.py  # Convert real photos to skeleton renders
-│   └── compare.py           # Multi-model comparison charts
-├── notebooks/
-│   └── colab_training.ipynb # Google Colab training notebook
+│   
 └── requirements.txt
 ```
 
