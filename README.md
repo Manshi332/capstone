@@ -51,10 +51,6 @@ Both datasets are split independently using the same random seed (42) before com
 | VGG16 | 93.53% | 93.62% | 93.53% | 93.52% | 93.47% |
 | MobileNetV2 | 91.00% | 91.12% | 91.00% | 90.97% | 91.13% |
 
-
-### Per-Class F1 Highlights
-
-
 ### Real-World Generalisation (unseen Y sign stock photo)
 
 | Model | Predicted | Confidence |
