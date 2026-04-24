@@ -71,3 +71,11 @@ Both datasets are split independently using the same random seed (42) before com
 | MobileNetV2 |  Y | 26.06% |
 
 
+<img width="2560" height="581" alt="image" src="https://github.com/user-attachments/assets/433757e1-5990-4726-875e-35cba4140bed" />
+<img width="2559" height="581" alt="image" src="https://github.com/user-attachments/assets/6539e07a-ff1e-4847-8756-2457f89ea2c6" />
+<img width="2561" height="581" alt="image" src="https://github.com/user-attachments/assets/763ac5d4-d95d-411f-a44a-997c2188a299" />
+<img width="2561" height="581" alt="image" src="https://github.com/user-attachments/assets/6a74caff-22af-49c4-ad7d-344eceb90ba3" />
+
+
+
+
