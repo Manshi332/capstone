@@ -30,6 +30,16 @@ A systematic comparison of four deep learning models on the same ASL skeleton da
 ### Why Two Datasets?
 The custom dataset alone (7,500 images, one person) would cause the model to memorise a single person's hand geometry. The extra dataset introduces diversity in hand shape and size, improving generalisation. The two datasets are combined with a `WeightedRandomSampler` so that every class is sampled equally during training, preventing the larger extra dataset from dominating.
 
+### Why Skeleton Images?
+
+The original approach of using raw cropped hand photos failed because models trained on one person's hand, one background, and one lighting setup would not generalise to different conditions. When tested with a stock photo of the Y sign, models trained on raw photos predicted R or W with low confidence.
+
+After switching to skeleton images, the same Y sign photo was correctly predicted:
+- Custom CNN: **Y at 82.05%**
+- ResNet50: **Y at 90.94%**
+
+This confirms that the skeleton domain abstraction is the right approach for a generalised ASL recognition system
+
 ### Combined Training Configuration
 
 | Split | Custom | Extra | Total |
@@ -55,9 +65,9 @@ Both datasets are split independently using the same random seed (42) before com
 
 | Model | Predicted | Confidence |
 |---|---|---|
-| Custom CNN | ✓ Y | 82.05% |
-| ResNet50 | ✓ Y | **90.94%** |
-| VGG16 | ✓ Y | 19.93% |
-| MobileNetV2 | ✓ Y | 26.06% |
+| Custom CNN |  Y | 82.05% |
+| ResNet50 |  Y | **90.94%** |
+| VGG16 |  Y | 19.93% |
+| MobileNetV2 |  Y | 26.06% |
 
 
