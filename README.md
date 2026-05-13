@@ -73,8 +73,19 @@ Both datasets are split independently using the same random seed (42) before com
 
 <img width="2560" height="581" alt="image" src="https://github.com/user-attachments/assets/433757e1-5990-4726-875e-35cba4140bed" />
 <img width="2559" height="581" alt="image" src="https://github.com/user-attachments/assets/e0686a23-95b9-4f04-b278-b853d845b7d2" />
-<img width="2561" height="581" alt="image" src="https://github.com/user-attachments/assets/763ac5d4-d95d-411f-a44a-997c2188a299" />
-<img width="2561" height="581" alt="image" src="https://github.com/user-attachments/assets/6a74caff-22af-49c4-ad7d-344eceb90ba3" />
+<img width="2561" height="581" alt="vgg16_prediction" src="https://github.com/user-attachments/assets/1fc455e4-ee57-4fab-a49f-2930b019d1f7" />
+<img width="2561" height="581" alt="mobilenetv2_prediction" src="https://github.com/user-attachments/assets/4560f218-85dd-40ca-9d95-c9e953fe966a" />
+
+###Confusion Matrix
+<img width="2100" height="1800" alt="custom_cnn_confusion_matrix" src="https://github.com/user-attachments/assets/ea060159-3fd1-4b87-97f9-0dd13135da37" />
+<img width="2100" height="1800" alt="transfer_resnet50_confusion_matrix" src="https://github.com/user-attachments/assets/9fe9e634-3aad-4d24-a40f-af57967e3b2d" />
+<img width="2100" height="1800" alt="transfer_vgg16_confusion_matrix" src="https://github.com/user-attachments/assets/f7d3fa40-8ef0-4c4c-8fe6-4478e9c2ec6a" />
+<img width="2100" height="1800" alt="transfer_mobilenetv2_confusion_matrix" src="https://github.com/user-attachments/assets/de2c0fb4-9aba-4095-854b-9341fb5d5407" />
+
+
+
+
+
 
 
 
