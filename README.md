@@ -76,7 +76,7 @@ Both datasets are split independently using the same random seed (42) before com
 <img width="2561" height="581" alt="vgg16_prediction" src="https://github.com/user-attachments/assets/1fc455e4-ee57-4fab-a49f-2930b019d1f7" />
 <img width="2561" height="581" alt="mobilenetv2_prediction" src="https://github.com/user-attachments/assets/4560f218-85dd-40ca-9d95-c9e953fe966a" />
 
-###Confusion Matrix
+### Confusion Matrix
 <img width="2100" height="1800" alt="custom_cnn_confusion_matrix" src="https://github.com/user-attachments/assets/ea060159-3fd1-4b87-97f9-0dd13135da37" />
 <img width="2100" height="1800" alt="transfer_resnet50_confusion_matrix" src="https://github.com/user-attachments/assets/9fe9e634-3aad-4d24-a40f-af57967e3b2d" />
 <img width="2100" height="1800" alt="transfer_vgg16_confusion_matrix" src="https://github.com/user-attachments/assets/f7d3fa40-8ef0-4c4c-8fe6-4478e9c2ec6a" />
